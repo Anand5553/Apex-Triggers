@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Getter and setter" icon-name="standard:account">
+    <p>The normal variable i declared : {numberOfMoviesWatched}</p>
+    <p>This is the getter method : {moviesWatchedOnMonday}</p>
+    <lightning-input type="number" onchange = {handleChange} label = "Enter the no of movie u watched"></lightning-input>
+    <p>After setting value in li-input tag : getter method again called: {moviesWatchedOnMonday}</p>
+</lightning-card>
+</template>
